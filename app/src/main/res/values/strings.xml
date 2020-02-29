@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Resource Management System</string>
+    <string name="lbllogin">Login Here!</string>
+    <string name="txtuname">Username</string>
+    <string name="txtupwd">Password</string>
+    <string name="btnlogin">Log in</string>
+    <string name="lblsignup">Create Account</string>
+    <string name="txtrsignup">Register Here!</string>
+    <string name="txtrname">Name</string>
+    <string name="txtrpwd">Password</string>
+    <string name="btnsignup">Sign up</string>
+    <string name="lblsignin">Already Register User</string>
+    <string name="title_activity_navigation_drawer">navigation_drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">CMPICA</string>
+    <string name="nav_header_subtitle">cmpica@gmail.com</string>
+    <string name="nav_header_desc1">Navigation header</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_add_res">Add Resources</string>
+    <string name="menu_add_rooms">Add Rooms</string>
+    <string name="menu_allocate_res">Allocate Resources</string>
+    <string name="menu_show_all_res">All Resources Details</string>
+    <string name="menu_visual_rooms">Visual Rooms</string>
+    <string name="title_activity_navigation_tab">navigation_tab</string>
+    <string name="total_resources">Total Resources</string>
+    <string name="action_change">Change Password</string>
+
+    <string-array name="room">
+        <item>Class 1</item>
+        <item>Lab 1</item>
+        <item>Class 2</item>
+        <item>Library</item>
+    </string-array>
+
+    <string-array name="res">
+        <item>Table</item>
+        <item>Chair</item>
+        <item>Fan</item>
+        <item>Bench</item>
+    </string-array>
+    <string name="title_activity_navigationtab">Navigationtab</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="nav_header_desc">Navigation header</string>
+</resources>

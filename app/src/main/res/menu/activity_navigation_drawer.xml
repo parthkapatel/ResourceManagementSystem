@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="nav_dashboard">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/menu_dashboard" />
+
+        <item android:title="Add Data">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_add_res"
+                        android:icon="@drawable/ic_add_res"
+                        android:title="@string/menu_add_res" />
+                    <item
+                        android:id="@+id/nav_add_rooms"
+                        android:icon="@drawable/ic_add_room"
+                        android:title="@string/menu_add_rooms" />
+                    <item
+                        android:id="@+id/nav_allocate_res"
+                        android:icon="@drawable/ic_allocate"
+                        android:title="@string/menu_allocate_res" />
+                </group>
+            </menu>
+        </item>
+    </group>
+
+
+    <item android:title="Show Data">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_show_res"
+                    android:icon="@drawable/ic_show_data"
+                    android:title="@string/menu_show_all_res" />
+                <item
+                    android:id="@+id/nav_show_visual_rooms"
+                    android:icon="@drawable/ic_visual"
+                    android:title="@string/menu_visual_rooms" />
+            </group>
+        </menu>
+    </item>
+</menu>

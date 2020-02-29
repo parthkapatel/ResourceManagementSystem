@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.example.resourcemanagementsystem.ui.dashboard.DashboardFragment"
+        android:label="@string/menu_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/nav_add_res"
+        android:name="com.example.resourcemanagementsystem.ui.add_res.AddResFragment"
+        android:label="@string/menu_add_res"
+        tools:layout="@layout/fragment_add_res" />
+    <fragment
+        android:id="@+id/nav_add_rooms"
+        android:name="com.example.resourcemanagementsystem.ui.add_rooms.AddRoomsFragment"
+        android:label="@string/menu_add_rooms"
+        tools:layout="@layout/fragment_add_rooms" />
+
+    <fragment
+        android:id="@+id/nav_allocate_res"
+        android:name="com.example.resourcemanagementsystem.ui.allocate_res.AllocateResFragment"
+        android:label="@string/menu_allocate_res"
+        tools:layout="@layout/fragment_allocate_res" />
+
+    <fragment
+        android:id="@+id/nav_show_res"
+        android:name="com.example.resourcemanagementsystem.ui.show_res.ShowResFragment"
+        android:label="@string/menu_show_all_res"
+        tools:layout="@layout/fragment_show_res" />
+
+    <fragment
+        android:id="@+id/nav_show_visual_rooms"
+        android:name="com.example.resourcemanagementsystem.ui.show_visual_rooms.ShowVisualRoomsFragment"
+        android:label="@string/menu_visual_rooms"
+        tools:layout="@layout/fragment_show_visual_rooms" />
+</navigation>
